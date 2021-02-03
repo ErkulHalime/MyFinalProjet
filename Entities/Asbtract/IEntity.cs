@@ -5,7 +5,7 @@ using System.Text;
 namespace Entities.Asbtract
 {
     //IEntity  implement eden class bir veritabanı  tablosudur 
-    public interface IEntitiy
+    public interface IEntity
     {
     }
 }
