@@ -1,13 +1,12 @@
-﻿using Microsoft.Extensions.DependencyInjection;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using Microsoft.Extensions.DependencyInjection;
 
-namespace Core.Utulities.IoC
+namespace Core.DependencyResolvers
 {
-
-    public interface ICoreModule
+   public interface ICoreModule
     {
-        void Load(IServiceCollection collection);
+        void Load(IServiceCollection serviceCollection);
     }
 }
